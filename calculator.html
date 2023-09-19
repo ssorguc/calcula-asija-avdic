@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>calcula</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lora&family=Montserrat:wght@200&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="nav-bar">
+    <div class="logo">
+      <img src="assets/logo.png" id="logo-img">
+      <a href="index.html">Welcome to Calcula!</a>
+    </div>
+
+    <div class="nav-bar-item">
+      <a href="aboutus.html">About us</a>
+    </div>
+    <div class="nav-bar-item">
+      <a href="calculator.html">Calculator</a>
+    </div>
+  </div>
+  <div class="calculator">
+    <h1>Calculator</h1>
+    <p>State:</p>
+    <div class="result-wrapper">
+      <p id="currentNumber">0</p>
+      <input id="result">
+    </div> 
+    <div class="calculator-keys">
+      <div class="first-row">
+        <button onclick="calculator.AC()">AC</button>
+        <button onclick="calculator.positiveNegative()">+/-</button>
+        <button onclick="calculator.posto()">%</button>
+        <button onclick="calculator.devide()">/</button>
+      </div>
+      <div class="second-row">
+        <button onclick="calculator.sedam()">7</button>
+        <button onclick="calculator.osam()">8</button>
+        <button onclick="calculator.devet()">9</button>
+        <button onclick="calculator.multiply()">x</button>
+      </div>
+      <div class="third-row">
+        <button onclick="calculator.cetiri()">4</button>
+        <button onclick="calculator.pet()">5</button>
+        <button onclick="calculator.sest()">6</button>
+        <button onclick="calculator.subtract()">-</button>
+      </div>
+      <div class="fourth-row">
+        <button onclick="calculator.jedan()">1</button>
+        <button onclick="calculator.dva()">2</button>
+        <button onclick="calculator.tri()">3</button>
+        <button onclick="calculator.add()">+</button>
+      </div>
+      <div class="fifth-row">
+        <button onclick="calculator.nula()">0</button>
+        <button onclick="calculator.decimal()">,</button>
+        <button onclick="calculator.getResult()">=</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

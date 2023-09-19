@@ -1,0 +1,165 @@
+/*font-family: 'Hind Madurai', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+BOJE
+plavozelena #2ac7b1
+zuta #ffe37e
+crven #dc5a64
+siva #3a4849
+crna #000100
+svijetla siva: #d4d2d3
+*/
+
+/*Global*/
+html,
+body {
+    background-color: #3a4849;
+    margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #dc5a64;
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+h1{
+  font-family: 'Lora', serif;
+  margin: 0;
+} 
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+/*Navigacijski bar*/
+.nav-bar {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#logo-img {
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar-item {
+    width: 15%;
+    text-align: center;
+}
+
+.nav-bar-item a {
+    color: #2ac7b1;
+    text-decoration: none;
+}
+
+.nav-bar-item a:hover {
+    color: #dc5a64;
+    font-size: 20px;
+}
+.nav {
+    color: #2ac7b1;
+    text-decoration: none;
+}
+
+.nav:hover {
+    color: #2ac7b1;
+    font-size: 20px;
+}
+
+/*Prvi dio*/
+.section1 {
+  height: 350px;
+  padding: 200px;
+  background: #22c1c3; 
+background: -webkit-linear-gradient(to right, #3a4849, #2ac7b1);  
+background: linear-gradient(to right, #3a4849, #2ac7b1); 
+}
+
+.section1 h1{
+  color: white;
+  font-size: 50px;
+}
+
+.section1 a{
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+/*Calculator keys*/
+.result-wrapper input{
+  font-size: 14px;
+  border-radius: 6px;
+  line-height: 1.5;
+  padding: 5px 10px;
+  transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+  border: 2px solid #dee1e2;
+  color: #000100;
+  background: #dee1e2;
+  display: block;
+  height: 36px;    
+  margin: 5px;
+  width: 270px;
+}
+
+.result-wrapper input:hover {
+  border-color: #d4d2d3;
+}
+.result-wrapper input:focus{
+  border-color: #2ac7b1;
+  background: #fff;
+}
+
+.calculator-keys button{
+  background-color: white;
+  color: #3a4849;
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.calculator{
+  width: 300px;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.calculator h1, p{
+  color: white;
+}
+
+#currentNumber{
+  font-size: 30px;
+  color: #ffe37e;
+  font-family: 'Hind Madurai', sans-serif;
+  margin: 0;
+}
+
+.about-text{
+  color: white;
+   background: #22c1c3; 
+background: -webkit-linear-gradient(to right, #3a4849, #2ac7b1);  
+background: linear-gradient(to right, #3a4849, #2ac7b1); 
+  padding: 40px;
+}
